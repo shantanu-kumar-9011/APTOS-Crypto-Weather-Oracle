@@ -1,0 +1,15 @@
+[package]
+name = "Crypto-Weather-Oracle"
+version = "1.0.0"
+authors = []
+
+[addresses]
+WeatherOracle="0x9dcf870e4c997bcbea9598f6f309be6a9f2b7fa4b7d2d1e295cedee95a670366"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
